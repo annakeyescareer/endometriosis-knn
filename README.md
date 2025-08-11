@@ -1,1 +1,12 @@
-# endometriosis-knn
+# Predicting Endometriosis with K-Nearest Neighbors
+- KNN implementation for prediction of endometriosis based on a Kaggle dataset (available [here](https://www.kaggle.com/datasets/michaelanietie/endometriosis-dataset/data))
+- Exploratory Data Analysis
+   - includes visualizations of data relationships through heatmap and scatterplot
+   - no correlation apparent
+- Data Preparation
+   - provides two methods of feature scaling (max-min normalization, standardization)
+   - gives formula for best number of nearest neighbors
+- K-Nearest Neighbors Algorithm
+   - weighted, using Euclidean distance
+- Evaluation
+   - Dataset not well-suited to machine learning efforts 
